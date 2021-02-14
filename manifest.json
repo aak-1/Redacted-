@@ -1,15 +1,3 @@
-/* File: manifest.json
- * -------------------
- * A manifest file (like this one) is used to
- * give Chrome information about your extension.
- *
- * You shouldn't need to change anything in this file
- * unless you're doing extensions.
- *
- * For more details, check out the documentation:
- * https://developer.chrome.com/extensions/manifest
- */
-
 {
   // Required
   "manifest_version": 2,
@@ -18,14 +6,6 @@
 
   // Recommended
   "description": "Project submission for Treehacks 2021",
-  "icons": {
-    "16": "icons/TreeHacks-white-16.png",
-    "32": "icons/TreeHacks-white-32.png",
-    "48": "icons/TreeHacks-white-48.png",
-    "64": "icons/TreeHacks-white-64.png",
-    "96": "icons/TreeHacks-white-96.png",
-    "128": "icons/TreeHacks-white-128.png"
-  },
 
   // Optional
   "homepage_url": "https://github.com/aakriti-aggarwal-11",
@@ -41,7 +21,7 @@
   // Probably will not need to be modified unless you *really*
   // know what you're doing
   "browser_action": {
-    "default_icon": "icons/TreeHacks-white-19.png",
+    "default_icon": "icons/Redacted.png",
     "default_title": "Redacted!",
     "default_popup": "src/popup.html"
   },
